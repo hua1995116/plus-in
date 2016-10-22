@@ -11,4 +11,4 @@
     <script src="js/backTop.min.js"></script>
 ###将模块传入
     var ele = document.getElementById("bb");
-baTop(ele,55);
+    baTop(ele,55);
