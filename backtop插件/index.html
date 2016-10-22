@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>返回顶部</title>
+<style>
+body{
+
+}
+#aa{
+	height: 40000px;
+}
+#bb{
+	position: fixed;
+	width: 40px;
+	height: 74px;
+	right: 10px;
+	bottom: 20px;
+	display: none;
+	overflow: hidden;
+	transition:0.5s all;
+}
+#li{
+	width: 100%;
+	transition:0.5s all;
+}
+img{
+	width: 30px;
+}
+</style>
+</head>
+<body>
+<div id="aa">
+	
+</div>
+<div id="bb">
+	<div id="li">
+		<img src="images/t1.png">
+		<img src="images/t2.png">
+		<img src="images/t3.png">
+	</div>
+</div>
+<script src="js/backTop.min.js"></script>
+<script>
+var ele = document.getElementById("bb");
+baTop(ele,55);
+</script>
+</body>
+</html>
